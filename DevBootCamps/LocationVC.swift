@@ -13,7 +13,8 @@ class LocationVC: UIViewController ,UITableViewDelegate,UITableViewDataSource,MK
     
     let locationManage = CLLocationManager()
     
-    let addresses = ["东莞市，凤岗镇"]
+    let addresses = ["东莞市，凤岗镇"]//just for test
+    let test = " just for test"
     
     let regionRadius : CLLocationDistance = 1000//显示半径
     
